@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# Tests
+coverage/
+.vitest/
+
+# Stryker
+reports/
+stryker.log
+
+# VSCode and IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
