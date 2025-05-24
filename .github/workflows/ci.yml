@@ -26,6 +26,9 @@ jobs:
       - name: Run Tests & Generate Coverage
         run: npm run test
 
+      - name: Run Mutations
+        run: npm run mutation
+
       - name: Upload Coverage Report Artifact
         uses: actions/upload-artifact@v4
         with:
