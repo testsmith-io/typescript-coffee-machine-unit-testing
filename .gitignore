@@ -1,7 +1,6 @@
 # Node
 node_modules/
 npm-debug.log*
-package-lock.json
 
 # TypeScript
 dist/
@@ -14,6 +13,8 @@ coverage/
 # Stryker
 reports/
 stryker.log
+.stryker-tmp
+reports
 
 # VSCode and IDEs
 .vscode/
