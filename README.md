@@ -61,17 +61,7 @@ npm run test:watch
 npm run mutation
 ```
 
-Reports will be generated under `reports/mutation/html/index.html`.
-
----
-
-## ⚙️ Build the Project
-
-```bash
-npm run build
-```
-
-This will compile your TypeScript code to JavaScript in the `dist/` folder.
+Reports will be generated under `reports/mutation/mutation.html`.
 
 ---
 
@@ -102,7 +92,6 @@ This will compile your TypeScript code to JavaScript in the `dist/` folder.
 
 | Script               | Description                           |
 | -------------------- | ------------------------------------- |
-| `npm run build`      | Transpile TypeScript to `dist/`       |
 | `npm run test`       | Run all unit tests (Vitest)           |
 | `npm run test:watch` | Watch and re-run tests on file change |
 | `npm run mutation`   | Run mutation tests (Stryker)          |
@@ -111,8 +100,8 @@ This will compile your TypeScript code to JavaScript in the `dist/` folder.
 
 ## 🔧 Requirements
 
-* Node.js ≥ 18
-* npm ≥ 9
+* Node.js ≥ 22
+* npm ≥ 10
 * TypeScript ≥ 5
 * Vitest
 * Stryker
